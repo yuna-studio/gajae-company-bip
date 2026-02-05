@@ -1,0 +1,18 @@
+{font-family:Google Sans Text,Roboto,sans-serif;margin-top:16px;text-align:center}
+{c=c===void 0?"true":c;a=new URL(a);for(var d=0;d<l.length;d++)a.searchParams.delete(l[d]);a.searchParams.set(b,c);return a.toString()}
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+{return void u(d,e)})}
+{y(a,"show-error")}):A(a,window.location.href,"not_in_iframe")}
+{y(a,"show-error")})}
+{var d=b[c];if(d instanceof H&&d.j(a))return new G(a)}}
+{return document.requestStorageAccess()}
+{v()}
+</script><div class="document-root loading"><div class="request-storage-access"><div><img src=&#47;&#47;ssl.gstatic.com&#47;docs&#47;common&#47;product&#47;sheets_app_icon1.png alt=Google&#32;Sheets class="icon"></div><div class="title-text">Google Sheets에서 필요한 쿠키에 액세스하도록 허용</div><div class="subtitle-text">필요한 쿠키가 사용 중지되어 있으면 이 콘텐츠에 액세스할 수 없습니다.</div><div class="button-container"><a target="cookieAccessHelp" href="https://support.google.com/drive?p=enable_storage_access" class=" button">자세히 알아보기</a><button type="button" class="accept-button button primary-button">쿠키 허용</button></div></div><div class="login"><div><img src=https:&#47;&#47;www.gstatic.com&#47;images&#47;branding&#47;googleg&#47;1x&#47;googleg_standard_color_48dp.png alt=Google&#32;로고 class="icon"></div><div class="title-text">Google 계정에 로그인하십시오.</div><div class="subtitle-text">이 콘텐츠에 액세스하려면 로그인해야 합니다.</div><div class="button-container"><button type="button" class="sign-in-button button primary-button" data-popup-url=https:&#47;&#47;accounts.google.com&#47;ServiceLogin?continue&#61;https:&#47;&#47;docs.google.com&#47;spreadsheets&#47;d&#47;18nMjzde0y8DmQmM1d3aARYUqiF_OhEZkrjlfkADT7UI&#47;gviz&#47;tq?tqx%3Dout:json&amp;btmpl&#61;popup&amp;hl&#61;ko_KR>로그인</button></div></div><div class="error"><div><img src=https:&#47;&#47;www.gstatic.com&#47;images&#47;branding&#47;googleg&#47;1x&#47;googleg_standard_color_48dp.png alt=Google&#32;로고 class="icon"></div><div class="title-text">Google 계정에 액세스 할 수 없습니다.</div><div class="subtitle-text">지금은 이 콘텐츠에 액세스할 수 없습니다. 계속하려면 Google 계정에 로그인하거나 쿠키 액세스를 허용하세요.</div><div class="button-container"><a target="cookieAccessHelp" href="https://support.google.com/drive?p=enable_storage_access" class="primary-button button">자세히 알아보기</a></div></div></div>
