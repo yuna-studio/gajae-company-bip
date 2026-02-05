@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 
-export default function HeroSection() {
+export default function HeroSection({ onStart }: { onStart?: () => void }) {
   const [sliderPos, setSliderPos] = useState(50);
   const [isAuto, setIsAuto] = useState(true);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -95,7 +95,10 @@ export default function HeroSection() {
         transition={{ delay: 1.5 }}
         className="mt-12 flex flex-col items-center gap-4"
       >
-        <button className="px-10 py-5 bg-[var(--color-primary)] text-white rounded-full font-bold text-lg shadow-xl hover:scale-105 transition-transform flex items-center gap-2 group">
+        <button 
+          onClick={onStart}
+          className="px-10 py-5 bg-[var(--color-primary)] text-white rounded-full font-bold text-lg shadow-xl hover:scale-105 transition-transform flex items-center gap-2 group"
+        >
           내 아이 만나러 가기
           <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </button>
